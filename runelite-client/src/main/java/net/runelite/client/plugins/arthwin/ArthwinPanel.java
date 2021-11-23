@@ -18,7 +18,6 @@ class ArthwinPanel extends PluginPanel
         // build panel here
 
         // example text title
-        setBorder(new EmptyBorder(10, 10, 10, 10));
         final PluginErrorPanel errorPanel = new PluginErrorPanel();
         errorPanel.setBorder(new EmptyBorder(10, 25, 10, 25));
         errorPanel.setContent("Arthwin Panel", "Simple panel example");

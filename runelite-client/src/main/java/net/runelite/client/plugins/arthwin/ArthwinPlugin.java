@@ -35,6 +35,7 @@ public class ArthwinPlugin extends Plugin
     // inject overlay
     @Inject
     private OverlayManager overlayManager;
+    @Inject
     private ArthwinOverlay overlay;
 
     // inject configuration
